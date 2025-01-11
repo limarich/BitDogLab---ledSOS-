@@ -190,7 +190,7 @@ void convertToMorse(char *text)
 
 int main()
 {
-    stdio_init_all();
+    // stdio_init_all();
     gpio_init(led_pin);
     gpio_set_dir(led_pin, GPIO_OUT);
 
